@@ -5,7 +5,6 @@ string PrintNumbers(int n)
     if (n == 1) return "1";
     else
     {
-        // return PrintNumbers(n - 1) + " " + n.ToString();
        return n.ToString() + " " + PrintNumbers(n -1);
     }
 }
